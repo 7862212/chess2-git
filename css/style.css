@@ -22,14 +22,17 @@
 .chess__chess-board :nth-child(1), .chess__chess-board :nth-child(2), .chess__chess-board :nth-child(3), .chess__chess-board :nth-child(4), .chess__chess-board :nth-child(5), .chess__chess-board :nth-child(6), .chess__chess-board :nth-child(7), .chess__chess-board :nth-child(8), .chess__chess-board :nth-child(9), .chess__chess-board :nth-child(10) {
   background: green;
   height: 20px;
+  border: 1px solid #236c23;
 }
 .chess__chess-board :nth-child(1), .chess__chess-board :nth-child(10), .chess__chess-board :nth-child(11), .chess__chess-board :nth-child(20), .chess__chess-board :nth-child(21), .chess__chess-board :nth-child(30), .chess__chess-board :nth-child(31), .chess__chess-board :nth-child(40), .chess__chess-board :nth-child(41), .chess__chess-board :nth-child(50), .chess__chess-board :nth-child(51), .chess__chess-board :nth-child(60), .chess__chess-board :nth-child(61), .chess__chess-board :nth-child(70), .chess__chess-board :nth-child(71), .chess__chess-board :nth-child(80), .chess__chess-board :nth-child(81), .chess__chess-board :nth-child(90), .chess__chess-board :nth-child(91), .chess__chess-board :nth-child(100), .chess__chess-board :nth-child(91), .chess__chess-board :nth-child(100) {
   background: green;
   width: 20px;
+  border: 1px solid #236c23;
 }
 .chess__chess-board :nth-child(91), .chess__chess-board :nth-child(92), .chess__chess-board :nth-child(93), .chess__chess-board :nth-child(94), .chess__chess-board :nth-child(95), .chess__chess-board :nth-child(96), .chess__chess-board :nth-child(97), .chess__chess-board :nth-child(98), .chess__chess-board :nth-child(99), .chess__chess-board :nth-child(100) {
   background: green;
   height: 20px;
+  border: 1px solid #236c23;
 }
 .chess__chess-board :nth-child(12), .chess__chess-board :nth-child(89) {
   background: black url(../img/ladya-b.png) center no-repeat;
