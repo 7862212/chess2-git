@@ -1,0 +1,152 @@
+.wrapper {}
+
+.chess {
+	// .chess__container
+	&__container {
+		max-width: 1020px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	// .chess__chess-board
+	&__chess-board {
+		width: 460px;
+		height: 460px;
+		border: 1px solid #000;
+		margin: 0 auto;
+	}
+
+	&__chess-board div {
+		float: left;
+		width: 50px;
+		height: 50px;
+		background: #fff;
+		border: 1px solid #000;
+	}
+
+	&__chess-board :nth-child(12), &__chess-board :nth-child(14), 
+	&__chess-board :nth-child(16), &__chess-board :nth-child(18), 
+	&__chess-board :nth-child(18), &__chess-board :nth-child(23), 
+	&__chess-board :nth-child(25), &__chess-board :nth-child(27), 
+	&__chess-board :nth-child(29), &__chess-board :nth-child(32), 
+	&__chess-board :nth-child(34), &__chess-board :nth-child(36), 
+	&__chess-board :nth-child(38), &__chess-board :nth-child(43), 
+	&__chess-board :nth-child(45), &__chess-board :nth-child(47), 
+	&__chess-board :nth-child(49), &__chess-board :nth-child(52), 
+	&__chess-board :nth-child(54), &__chess-board :nth-child(56), 
+	&__chess-board :nth-child(58), &__chess-board :nth-child(63), 
+	&__chess-board :nth-child(65), &__chess-board :nth-child(67), 
+	&__chess-board :nth-child(69), &__chess-board :nth-child(72), 
+	&__chess-board :nth-child(74), &__chess-board :nth-child(76), 
+	&__chess-board :nth-child(78), &__chess-board :nth-child(83), 
+	&__chess-board :nth-child(85), &__chess-board :nth-child(87), 
+	&__chess-board :nth-child(89)
+	{
+		background: black;
+	}
+
+	&__chess-board :nth-child(1), &__chess-board :nth-child(2),
+	&__chess-board :nth-child(3), &__chess-board :nth-child(4),
+	&__chess-board :nth-child(5), &__chess-board :nth-child(6),
+	&__chess-board :nth-child(7), &__chess-board :nth-child(8),
+	&__chess-board :nth-child(9), &__chess-board :nth-child(10)
+	{
+		background: green;
+		height: 20px;
+	}
+
+	&__chess-board :nth-child(1), &__chess-board :nth-child(10),
+	&__chess-board :nth-child(11), &__chess-board :nth-child(20),
+	&__chess-board :nth-child(21), &__chess-board :nth-child(30),
+	&__chess-board :nth-child(31), &__chess-board :nth-child(40),
+	&__chess-board :nth-child(41), &__chess-board :nth-child(50),
+	&__chess-board :nth-child(51), &__chess-board :nth-child(60),
+	&__chess-board :nth-child(61), &__chess-board :nth-child(70),
+	&__chess-board :nth-child(71), &__chess-board :nth-child(80),
+	&__chess-board :nth-child(81), &__chess-board :nth-child(90),
+	&__chess-board :nth-child(91), &__chess-board :nth-child(100),
+	&__chess-board :nth-child(91), &__chess-board :nth-child(100)
+	{
+		background: green;
+		width: 20px;
+	}
+
+	&__chess-board :nth-child(91), &__chess-board :nth-child(92),
+	&__chess-board :nth-child(93), &__chess-board :nth-child(94),
+	&__chess-board :nth-child(95), &__chess-board :nth-child(96),
+	&__chess-board :nth-child(97), &__chess-board :nth-child(98),
+	&__chess-board :nth-child(99), &__chess-board :nth-child(100) 
+	{
+		background: green;
+		height: 20px;
+	}
+
+	&__chess-board :nth-child(12),
+	&__chess-board :nth-child(89){
+		background: black url(../img/ladya-b.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(13),
+	&__chess-board :nth-child(88) {
+		background: url(../img/slon.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(14),
+	&__chess-board :nth-child(85) {
+			background: black url(../img/kon-b.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(15),
+	&__chess-board :nth-child(84) {
+		background: url(../img/kon.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(16) {
+		background: black url(../img/korol-b.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(86) {
+		background: url(../img/korol.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(17) {
+		background: url(../img/koroleva.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(87) {
+		background: black url(../img/koroleva-b.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(18),
+	&__chess-board :nth-child(83) {
+		background: black url(../img/slon-b.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(19),
+	&__chess-board :nth-child(82){
+		background: url(../img/ladya.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(22),
+	&__chess-board :nth-child(24),
+	&__chess-board :nth-child(26),
+	&__chess-board :nth-child(28),
+	&__chess-board :nth-child(73),
+	&__chess-board :nth-child(75),
+	&__chess-board :nth-child(77),
+	&__chess-board :nth-child(79), {
+		background: url(../img/peshka.png) center no-repeat;
+	}
+
+	&__chess-board :nth-child(23),
+	&__chess-board :nth-child(25),
+	&__chess-board :nth-child(27),
+	&__chess-board :nth-child(29),
+	&__chess-board :nth-child(72),
+	&__chess-board :nth-child(74),
+	&__chess-board :nth-child(76),
+	&__chess-board :nth-child(78)	{
+		background: black url(../img/peshka-b.png) center no-repeat;
+	}
+}
+
